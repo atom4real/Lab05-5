@@ -90,6 +90,7 @@ const router = createRouter({
   routes,
 });
 
+//Already here!
 router.beforeEach(() => {
   NProgress.start();
 });
