@@ -52,6 +52,18 @@ const routes = [
         props: true,
         component: EventEdit,
       },
+      {
+        path: "/event/:id/register",
+        name: "EventRegister",
+        props: true,
+        component: EventRegister,
+      },
+      {
+        path: "/event/:id/edit",
+        name: "EventEdit",
+        props: true,
+        component: EventEdit,
+      },
     ],
   },
   {
@@ -69,18 +81,6 @@ const routes = [
     path: "/network-error",
     name: "NetworkError",
     component: NetWorkError,
-  },
-  {
-    path: "/event/:id/register",
-    name: "EventRegister",
-    props: true,
-    component: EventRegister,
-  },
-  {
-    path: "/event/:id/edit",
-    name: "EventEdit",
-    props: true,
-    component: EventEdit,
   },
 ];
 
